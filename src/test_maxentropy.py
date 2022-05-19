@@ -3,6 +3,9 @@ from maxentropy import MinDivergenceModel
 import math
 import numpy as np
 
+# See docstring of MinDivergenceModel here : 
+# https://github.com/PythonCharmers/maxentropy/blob/30f417c03b864a6f44c1754199e5a3d6b29993ac/maxentropy/skmaxent.py#L136
+
 ownership = ["tenant", "owner"]
 size = ["1_pers", "2_pers", "3_pers", "4_pers", "5_pers_or_more"]
 
